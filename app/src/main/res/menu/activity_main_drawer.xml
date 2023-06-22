@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_salas"
+            android:icon="@drawable/ic_baseline_desktop_windows_24"
+            android:title="@string/menu_salas" />
+
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/ic_feedback"
+            android:title="@string/menu_feedback" />
+
+    </group>
+
+    <item
+        android:id="@+id/group2"
+        android:title="Sobre">
+        <menu>
+            <item
+                android:id="@+id/nav_historia"
+                android:icon="@drawable/info_24"
+                android:title="@string/menu_historia" />
+            <item
+                android:id="@+id/nav_contato"
+                android:icon="@drawable/telefone_24"
+                android:title="@string/menu_contato" />
+            <item
+                android:id="@+id/nav_redes"
+                android:icon="@drawable/sms_24"
+                android:title="@string/menu_redes" />
+        </menu>
+    </item>
+
+</menu>

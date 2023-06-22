@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FF000000"
+        tools:context=".ui.home.HomeFragment">
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="474dp"
+            android:layout_height="176dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.507"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/header2" />
+
+        <TextView
+            android:id="@+id/textHome"
+            android:layout_width="310dp"
+            android:layout_height="75dp"
+            android:gravity="center"
+            android:text="Sobre nossa história"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#FFF"
+            app:autoSizeTextType="uniform"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.032" />
+
+        <TextView
+            android:id="@+id/textHome12"
+            android:layout_width="222dp"
+            android:layout_height="43dp"
+            android:gravity="center"
+            android:text="TechLab - RIO"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#FFF"
+            app:autoSizeTextType="uniform"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/guideline2"
+            app:layout_constraintHorizontal_bias="0.555"
+            app:layout_constraintStart_toStartOf="@+id/guideline"
+            app:layout_constraintTop_toBottomOf="@+id/imageView17"
+            app:layout_constraintVertical_bias="0.084" />
+
+        <TextView
+            android:id="@+id/textHome9"
+            android:layout_width="153dp"
+            android:layout_height="254dp"
+            android:gravity="left"
+            android:text="A Tech Lab é uma startup de coworking no mercado desde 2015, onde os sócios eram universitários e tinham uma grande necessidade: um espaço de qualidade para melhor foco nos estudos e  projetos da faculdade, extraindo assim o melhor desempenho de cada um. "
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#FFF"
+            app:autoSizeTextType="uniform"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.081"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textHome"
+            app:layout_constraintVertical_bias="0.061" />
+
+        <TextView
+            android:id="@+id/textHome10"
+            android:layout_width="369dp"
+            android:layout_height="83dp"
+            android:gravity="left"
+            android:text="Em pouco tempo, notamos que isso era uma necessidade além do nosso grupo e além do nosso nicho.   Crescemos, expandimos, e nossos clientes hoje são desde universitários até pequenas e médias empresas. "
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#FFF"
+            app:autoSizeTextType="uniform"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textHome11"
+            android:layout_width="180dp"
+            android:layout_height="235dp"
+            android:gravity="right"
+            android:text="Escritórios com um novo modelo de uso que se molda às suas necessidades e de sua empresa. São escritórios modernos, totalmente mobiliados, com uma infraestrutura completa e serviços recorrentes inclusos. Dessa maneira, você só precisa se preocupar com o tema da reunião, o resto a gente cuida!"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#FFF"
+            android:textSize="15.3dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.925"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textHome10"
+            app:layout_constraintVertical_bias="0.04" />
+
+        <TextView
+            android:id="@+id/textHome13"
+            android:layout_width="244dp"
+            android:layout_height="32dp"
+            android:gravity="center"
+            android:text="Av. dos Nomes Fictícios, 0000 - 12° andar"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#FFF"
+            app:autoSizeTextType="uniform"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/guideline11"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="@+id/guideline10"
+            app:layout_constraintTop_toBottomOf="@+id/textHome12"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textHome15"
+            android:layout_width="170dp"
+            android:layout_height="19dp"
+            android:gravity="center"
+            android:text="CEP 00000-000"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#FFF"
+            app:autoSizeTextType="uniform"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/guideline11"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="@+id/guideline10"
+            app:layout_constraintTop_toBottomOf="@+id/textHome14"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textHome14"
+            android:layout_width="188dp"
+            android:layout_height="19dp"
+            android:gravity="center"
+            android:text="Bairro X, Rio de Janeiro - RJ"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#FFF"
+            app:autoSizeTextType="uniform"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/guideline11"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="@+id/guideline10"
+            app:layout_constraintTop_toBottomOf="@+id/textHome13"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="74dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="16dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_end="16dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_end="76dp" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="198dp"
+            android:layout_height="269dp"
+            android:layout_marginTop="48dp"
+            android:src="@drawable/historia"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textHome"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="209dp"
+            android:layout_height="270dp"
+            android:src="@drawable/histria2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textHome10"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="98dp"
+            android:layout_height="94dp"
+            android:layout_marginBottom="320dp"
+            android:src="@drawable/logo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/guideline2"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="@+id/guideline"
+            app:layout_constraintTop_toTopOf="@+id/guideline12"
+            app:layout_constraintVertical_bias="0.372" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="851dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

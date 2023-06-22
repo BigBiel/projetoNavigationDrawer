@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FF000000"
+        tools:context=".ui.home.HomeFragment">
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="474dp"
+            android:layout_height="176dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.507"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/header2" />
+
+        <TextView
+            android:id="@+id/textHome"
+            android:layout_width="310dp"
+            android:layout_height="75dp"
+            android:gravity="center"
+            android:text="Nos siga nas redes sociais!"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#FFF"
+            app:autoSizeTextType="uniform"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.138" />
+
+        <TextView
+            android:id="@+id/textHome16"
+            android:layout_width="199dp"
+            android:layout_height="22dp"
+            android:gravity="center"
+            android:text="https://www.facebook.com/techlab"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#FFF"
+            app:autoSizeTextType="uniform"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/btnFace"
+            app:layout_constraintTop_toBottomOf="@+id/imageView10"
+            app:layout_constraintVertical_bias="0.189" />
+
+        <TextView
+            android:id="@+id/textHome17"
+            android:layout_width="201dp"
+            android:layout_height="18dp"
+            android:gravity="center"
+            android:text="https://www.instagram.com/techlab/"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#FFF"
+            app:autoSizeTextType="uniform"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/btnInsta"
+            app:layout_constraintTop_toBottomOf="@+id/textHome16"
+            app:layout_constraintVertical_bias="0.105" />
+
+        <TextView
+            android:id="@+id/textHome18"
+            android:layout_width="201dp"
+            android:layout_height="18dp"
+            android:gravity="left"
+            android:text="https://twitter.com/techlab"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#FFF"
+            app:autoSizeTextType="uniform"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/btnInsta"
+            app:layout_constraintTop_toBottomOf="@+id/textHome17"
+            app:layout_constraintVertical_bias="0.13" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="74dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_end="76dp" />
+
+        <ImageView
+            android:id="@+id/btnFace"
+            android:layout_width="63dp"
+            android:layout_height="54dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/guideline2"
+            app:layout_constraintHorizontal_bias="0.271"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView10"
+            app:layout_constraintVertical_bias="0.179"
+            app:srcCompat="@drawable/facebook" />
+
+        <ImageView
+            android:id="@+id/btnInsta"
+            android:layout_width="63dp"
+            android:layout_height="54dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.212"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnFace"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/instagram" />
+
+        <ImageView
+            android:id="@+id/btnTwitter"
+            android:layout_width="63dp"
+            android:layout_height="54dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.212"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnInsta"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/twitter" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

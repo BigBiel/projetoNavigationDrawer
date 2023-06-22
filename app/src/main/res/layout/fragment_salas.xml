@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FF000000"
+        tools:context=".ui.home.HomeFragment">
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="474dp"
+            android:layout_height="176dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.507"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/header2" />
+
+        <TextView
+            android:id="@+id/textHome"
+            android:layout_width="310dp"
+            android:layout_height="75dp"
+            android:gravity="center"
+            android:text="Conheça nossas salas"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#FFF"
+            app:autoSizeTextType="uniform"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.032" />
+
+        <TextView
+            android:id="@+id/textHome2"
+            android:layout_width="174dp"
+            android:layout_height="33dp"
+            android:layout_marginBottom="480dp"
+            android:gravity="left"
+            android:text="Ala Zona Sul"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#FFF"
+            app:autoSizeTextType="uniform"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/guideline11"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline10"
+            app:layout_constraintTop_toBottomOf="@+id/imageView10"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textHome5"
+            android:layout_width="174dp"
+            android:layout_height="33dp"
+            android:gravity="left"
+            android:text="Fast Meeting"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#FFF"
+            app:autoSizeTextType="uniform"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/guideline11"
+            app:layout_constraintHorizontal_bias="0.024"
+            app:layout_constraintStart_toStartOf="@+id/guideline10"
+            app:layout_constraintTop_toBottomOf="@+id/textHome4"
+            app:layout_constraintVertical_bias="0.03" />
+
+        <TextView
+            android:id="@+id/textHome3"
+            android:layout_width="378dp"
+            android:layout_height="27dp"
+            android:gravity="center"
+            android:text="Trabalhe com vista para o pão de açúcar!"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#FFF"
+            app:autoSizeTextType="uniform"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/guideline11"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline10"
+            app:layout_constraintTop_toBottomOf="@+id/imageView9"
+            app:layout_constraintVertical_bias="0.008" />
+
+        <TextView
+            android:id="@+id/textHome4"
+            android:layout_width="376dp"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:text="Infraestrutura completa para voce receber seus clientes e fazer reuniões de equipe."
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#FFF"
+            app:autoSizeTextType="uniform"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/guideline11"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline10"
+            app:layout_constraintTop_toBottomOf="@+id/imageView11"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textHome6"
+            android:layout_width="377dp"
+            android:layout_height="56dp"
+            android:gravity="center"
+            android:text="Cabine para ligações, vídeo chamadas e reuniões online ou com poucas pessoas."
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#FFF"
+            app:autoSizeTextType="uniform"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/guideline11"
+            app:layout_constraintHorizontal_bias="0.294"
+            app:layout_constraintStart_toStartOf="@+id/guideline10"
+            app:layout_constraintTop_toBottomOf="@+id/imageView12"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="598dp"
+            android:layout_height="272dp"
+            android:layout_marginTop="260dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.592"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textHome6"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/header" />
+
+        <TextView
+            android:id="@+id/textHome7"
+            android:layout_width="342dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="52dp"
+            android:gravity="left"
+            android:text="Conheça seu Novo Escritório"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#FFF"
+            app:autoSizeTextType="uniform"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/guideline11"
+            app:layout_constraintStart_toStartOf="@+id/guideline10"
+            app:layout_constraintTop_toBottomOf="@+id/imageView13"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textHome8"
+            android:layout_width="332dp"
+            android:layout_height="79dp"
+            android:gravity="center"
+            android:text="Faça seu orçamento agora mesmo!"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#FFF"
+            app:autoSizeTextType="uniform"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.454"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView15"
+            app:layout_constraintVertical_bias="0.02" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="74dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="16dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_end="16dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_end="76dp" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="320dp"
+            android:layout_height="283dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/guideline11"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline10"
+            app:layout_constraintTop_toBottomOf="@+id/textHome2"
+            app:layout_constraintVertical_bias="0.008"
+            app:srcCompat="@drawable/sala2" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="321dp"
+            android:layout_height="272dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/guideline11"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline10"
+            app:layout_constraintTop_toBottomOf="@+id/textHome3"
+            app:layout_constraintVertical_bias="0.018"
+            app:srcCompat="@drawable/escritorio" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="323dp"
+            android:layout_height="312dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/guideline11"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline10"
+            app:layout_constraintTop_toBottomOf="@+id/textHome5"
+            app:layout_constraintVertical_bias="0.017"
+            app:srcCompat="@drawable/fast" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="284dp"
+            android:layout_height="330dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/guideline11"
+            app:layout_constraintHorizontal_bias="0.02"
+            app:layout_constraintStart_toStartOf="@+id/guideline10"
+            app:layout_constraintTop_toBottomOf="@+id/textHome6"
+            app:layout_constraintVertical_bias="0.008"
+            app:srcCompat="@drawable/sala4" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="408dp"
+            android:layout_height="314dp"
+            android:layout_marginBottom="524dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textHome7"
+            app:layout_constraintVertical_bias="0.276"
+            app:srcCompat="@drawable/salas" />
+
+        <TextView
+            android:id="@+id/textHome12"
+            android:layout_width="222dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="44dp"
+            android:gravity="center"
+            android:text="TechLab - RIO"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#FFF"
+            app:autoSizeTextType="uniform"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/guideline2"
+            app:layout_constraintStart_toStartOf="@+id/guideline"
+            app:layout_constraintTop_toBottomOf="@+id/textHome8"
+            app:layout_constraintVertical_bias="0.408" />
+
+        <TextView
+            android:id="@+id/textHome13"
+            android:layout_width="244dp"
+            android:layout_height="32dp"
+            android:gravity="center"
+            android:text="Av. dos Nomes Fictícios, 0000 - 12° andar"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#FFF"
+            app:autoSizeTextType="uniform"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/guideline2"
+            app:layout_constraintStart_toStartOf="@+id/guideline"
+            app:layout_constraintTop_toBottomOf="@+id/textHome12"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textHome14"
+            android:layout_width="188dp"
+            android:layout_height="19dp"
+            android:gravity="center"
+            android:text="Bairro X, Rio de Janeiro - RJ"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#FFF"
+            app:autoSizeTextType="uniform"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/guideline2"
+            app:layout_constraintHorizontal_bias="0.75"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textHome13"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textHome15"
+            android:layout_width="170dp"
+            android:layout_height="19dp"
+            android:gravity="center"
+            android:text="CEP 00000-000"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#FFF"
+            app:autoSizeTextType="uniform"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textHome14"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

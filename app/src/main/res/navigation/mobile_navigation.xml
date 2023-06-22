@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.projetoa2.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_historia"
+        android:name="com.example.projetoa2.ui.historia.HistoriaFragment"
+        android:label="@string/menu_historia"
+        tools:layout="@layout/fragment_historia" />
+
+    <fragment
+        android:id="@+id/nav_contato"
+        android:name="com.example.projetoa2.ui.contato.ContatoFragment"
+        android:label="@string/menu_contato"
+        tools:layout="@layout/fragment_contato" />
+
+    <fragment
+        android:id="@+id/nav_feedback"
+        android:name="com.example.projetoa2.ui.feedback.FeedbackFragment"
+        android:label="@string/menu_feedback"
+        tools:layout="@layout/fragment_feedback" />
+    <fragment
+        android:id="@+id/nav_salas"
+        android:name="com.example.projetoa2.ui.salas.SalasFragment"
+        android:label="@string/menu_salas"
+        tools:layout="@layout/fragment_salas" />
+    <fragment
+        android:id="@+id/nav_redes"
+        android:name="com.example.projetoa2.ui.redes.RedesSociaisFragment"
+        android:label="@string/menu_redes"
+        tools:layout="@layout/fragment_redes_sociais" />
+
+</navigation>
